@@ -13,7 +13,6 @@ function upDate(previewPic){
         imageDiv.innerHTML = "Hover over an image below to display here";
         imageDiv.style.backgroundColor = '#000000a0'; // fondo oscuro semitransparente para el texto
         imageDiv.style.color = 'white';
-        imageDiv.style.padding = '20px';
 	}
 
     window.onload = function() {
