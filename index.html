@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Photo Gallery</title>
-	<link rel="stylesheet" href="css/styles.css">
-	<script src = "js/script.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colors</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<h1>Supercars photo gallery</h1>
-	<div id = "image">
-		<p id="caption">Hover over an image below to display here.</p>
-	</div>
-	
-	<img class = "preview" alt = "Blue BMW in the city" src = "https://cdn.pixabay.com/photo/2023/01/23/20/10/bmw-7739554_640.jpg" style="height: 240px; width: 320px;" 
-	onmouseover="upDate(this)" 
-     onmouseout="unDo()" 
-     onfocus="upDate(this)" 
-     onblur="unDo()" 
-     tabindex="0">
-	
-	<img class = "preview" alt = "Red Ferrari" src = "https://cdn.pixabay.com/photo/2021/09/11/11/23/ferrari-6615334_640.jpg" style="height: 240px; width: 320px;"
-	onmouseover="upDate(this)" 
-     onmouseout="unDo()" 
-     onfocus="upDate(this)" 
-     onblur="unDo()" 
-     tabindex="0">
+  <header>
+    <h1 id="top">Colors!</h1>
+  </header>
 
-	<img class = "preview" src = "https://cdn.pixabay.com/photo/2014/09/07/22/32/koenigsegg-438460_640.jpg" alt = "koeingsegg supercar" style="height: 240px; width: 320px;"
-	 onmouseover="upDate(this)" 
-     onmouseout="unDo()" 
-     onfocus="upDate(this)" 
-     onblur="unDo()" 
-     tabindex="0">
+  <main>
+    <h2>Basic Media Queries</h2>
+    <p>In this assignment you will add two media queries to the css file.</p>
+    <ul>
+      <li>The first media query should trigger at 772px and change the layout of the divs to be 45% of the viewport width. The images should have a maximum height of 30% of the viewport height.</li>
 
-	<img class = "preview" src = "https://cdn.pixabay.com/photo/2017/09/08/04/14/lamborghini-2727626_640.jpg" alt = "lamborghini" style="height: 240px; width: 320px;"
-	onmouseover="upDate(this)" 
-     onmouseout="unDo()" 
-     onfocus="upDate(this)" 
-     onblur="unDo()" 
-     tabindex="0">
+      <li>The second media query should trigger at 998px and change the layout of the divs to be 30% of the viewport width.</li>
+    </ul>
+    <p>You will need to make additional changes to ensure that the divs appear next to each other and that the images are contained within the divs.  Some of these properties include display, width and max-height.</p>
 
-	<img class = "preview" src = "https://cdn.pixabay.com/photo/2021/01/16/17/36/ferrari-5922873_640.jpg" alt = "Orange ferrari" style="height: 240px; width: 320px;" 
-	 onmouseover="upDate(this)" 
-     onmouseout="unDo()" 
-     onfocus="upDate(this)" 
-     onblur="unDo()" 
-     tabindex="0">
+    <div>
+      <img src="images/Red.jpeg" alt="Red" width="200">
+      <p class = "label">Red</p>
+    </div>
+    <div>
+      <img src="images/Orange.png" alt="Orange" width="200">
+      <p class = "label">Orange</p>
+    </div>
+    <div>
+      <img src="images/Yellow.png" alt="Yellow" width="200">
+      <p class = "label">Yellow</p>
+    </div>
+    <div>
+      <img src="images/Green.png" alt="Green" width="200">
+      <p class = "label">Green</p>
+    </div>
+    <div>
+      <img src="images/Blue.png" alt="Blue" width="200">
+      <p class = "label">Blue</p>
+    </div>
+    <div>
+      <img src="images/Indigo.jpeg" alt="Indigo" width="200">
+      <p class = "label">Indigo</p>
+    </div>
+    <div>
+      <img src="images/Purple.png" alt="Purple" width="200">
+      <p class = "label">Purple</p>
+    </div>
+    <div>
+      <img src="images/Pink.jpeg" alt="Pink" width="200">
+      <p class = "label">Pink</p>
+    </div>
+    <div>
+      <img src="images/White.png" alt="White" width="200">
+      <p class = "label">White</p>
+    </div>
+    </div>
+  </main>
 
-	<img class = "preview" src = "https://cdn.pixabay.com/photo/2013/08/29/04/37/automobile-176989_640.jpg" alt = "Mercedes in the farm" style="height: 240px; width: 320px;" 
-	 onmouseover="upDate(this)" 
-     onmouseout="unDo()" 
-     onfocus="upDate(this)" 
-     onblur="unDo()" 
-     tabindex="0">
-
+  <footer>
+    <a href="#top">Jump to the Top</a>
+  </footer>
 </body>
+
 </html>
